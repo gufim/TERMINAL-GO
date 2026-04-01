@@ -1,0 +1,6 @@
+# Ignoruj skompilowany plik binarny (ten, który uruchamiasz)
+main
+TERMINAL
+
+# Ignoruj lokalne ustawienia (żeby Twój port COM i baudrate nie zaśmiecały GitHuba)
+settings.json
