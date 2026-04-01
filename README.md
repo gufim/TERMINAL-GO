@@ -25,6 +25,6 @@ A lightweight, high-performance serial terminal built with **Go** and the **Fyne
 
 ### Installation
 1. Clone the repository:
-   ```bash
-   git clone [https://github.com/gufim/TERMINAL-GO.git]
-   cd TERMINAL-GO
+```bash
+git clone [https://github.com/gufim/TERMINAL-GO.git](https://github.com/gufim/TERMINAL-GO.git)
+cd TERMINAL-GO
