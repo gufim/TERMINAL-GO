@@ -1,0 +1,7 @@
+{
+  "port": "",
+  "baud": 9600,
+  "data": 8,
+  "parity": "None",
+  "stop": "1"
+}

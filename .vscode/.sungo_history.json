@@ -1,0 +1,182 @@
+[
+  {
+    "timestamp": "11.03, 10:16",
+    "rawSize": 31990616,
+    "formattedSize": "30.51 MB",
+    "diffText": "",
+    "isSmaller": null,
+    "buildTime": 93639,
+    "buildId": 1
+  },
+  {
+    "timestamp": "11.03, 17:25",
+    "rawSize": 32013872,
+    "formattedSize": "30.53 MB",
+    "diffText": "▲ 22.7 KB",
+    "isSmaller": false,
+    "buildTime": 94759,
+    "buildId": 2
+  },
+  {
+    "timestamp": "11.03, 17:34",
+    "rawSize": 32013872,
+    "formattedSize": "30.53 MB",
+    "diffText": "",
+    "isSmaller": null,
+    "buildTime": 92608,
+    "buildId": 3
+  },
+  {
+    "timestamp": "12.03, 20:46",
+    "rawSize": 32008864,
+    "formattedSize": "30.53 MB",
+    "diffText": "▼ 4.9 KB",
+    "isSmaller": true,
+    "buildTime": 93616,
+    "buildId": 4
+  },
+  {
+    "timestamp": "12.03, 22:16",
+    "rawSize": 32032040,
+    "formattedSize": "30.55 MB",
+    "diffText": "▲ 22.6 KB",
+    "isSmaller": false,
+    "buildTime": 93560,
+    "buildId": 5
+  },
+  {
+    "timestamp": "13.03, 11:23",
+    "rawSize": 32071056,
+    "formattedSize": "30.59 MB",
+    "diffText": "▲ 38.1 KB",
+    "isSmaller": false,
+    "buildTime": 93067,
+    "buildId": 6
+  },
+  {
+    "timestamp": "13.03, 12:06",
+    "rawSize": 32071160,
+    "formattedSize": "30.59 MB",
+    "diffText": "▲ 0.1 KB",
+    "isSmaller": false,
+    "buildTime": 98782,
+    "buildId": 7
+  },
+  {
+    "timestamp": "14.03, 20:06",
+    "rawSize": 32071160,
+    "formattedSize": "30.59 MB",
+    "diffText": "",
+    "isSmaller": null,
+    "buildTime": 94873,
+    "buildId": 8
+  },
+  {
+    "timestamp": "14.03, 20:13",
+    "rawSize": 32071160,
+    "formattedSize": "30.59 MB",
+    "diffText": "",
+    "isSmaller": null,
+    "buildTime": 94937,
+    "buildId": 9
+  },
+  {
+    "timestamp": "19.03, 13:42",
+    "rawSize": 32094080,
+    "formattedSize": "30.61 MB",
+    "diffText": "▲ 22.4 KB",
+    "isSmaller": false,
+    "buildTime": 93615,
+    "buildId": 10
+  },
+  {
+    "timestamp": "19.03, 13:52",
+    "rawSize": 32098256,
+    "formattedSize": "30.61 MB",
+    "diffText": "▲ 4.1 KB",
+    "isSmaller": false,
+    "buildTime": 94735,
+    "buildId": 11
+  },
+  {
+    "timestamp": "19.03, 16:35",
+    "rawSize": 32098336,
+    "formattedSize": "30.61 MB",
+    "diffText": "▲ 0.1 KB",
+    "isSmaller": false,
+    "buildTime": 94268,
+    "buildId": 12
+  },
+  {
+    "timestamp": "20.03, 21:08",
+    "rawSize": 32122552,
+    "formattedSize": "30.63 MB",
+    "diffText": "▲ 23.6 KB",
+    "isSmaller": false,
+    "buildTime": 95725,
+    "buildId": 13
+  },
+  {
+    "timestamp": "22.03, 18:54",
+    "rawSize": 32122664,
+    "formattedSize": "30.63 MB",
+    "diffText": "▲ 0.1 KB",
+    "isSmaller": false,
+    "buildTime": 93743,
+    "buildId": 14
+  },
+  {
+    "timestamp": "26.03, 22:48",
+    "rawSize": 32122856,
+    "formattedSize": "30.63 MB",
+    "diffText": "▲ 0.2 KB",
+    "isSmaller": false,
+    "buildTime": 93822,
+    "buildId": 15
+  },
+  {
+    "timestamp": "26.03, 23:01",
+    "rawSize": 32122872,
+    "formattedSize": "30.63 MB",
+    "diffText": "▲ 0.0 KB",
+    "isSmaller": false,
+    "buildTime": 94881,
+    "buildId": 16
+  },
+  {
+    "timestamp": "26.03, 23:04",
+    "rawSize": 32122872,
+    "formattedSize": "30.63 MB",
+    "diffText": "",
+    "isSmaller": null,
+    "buildTime": 93849,
+    "buildId": 17
+  },
+  {
+    "timestamp": "27.03, 16:49",
+    "rawSize": 32163376,
+    "formattedSize": "30.67 MB",
+    "diffText": "▲ 39.6 KB",
+    "isSmaller": false,
+    "buildTime": 92576,
+    "buildId": 18
+  },
+  {
+    "timestamp": "27.03, 17:33",
+    "rawSize": 32163376,
+    "formattedSize": "30.67 MB",
+    "diffText": "",
+    "isSmaller": null,
+    "buildTime": 95212,
+    "buildId": 19
+  },
+  {
+    "timestamp": "01.04, 19:43",
+    "rawSize": 32163976,
+    "formattedSize": "30.67 MB",
+    "diffText": "▲ 0.6 KB",
+    "isSmaller": false,
+    "buildTime": 94404,
+    "buildId": 20
+  }
+]

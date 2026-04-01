@@ -1,0 +1,18 @@
+{
+  "port": "",
+  "baud": 9600,
+  "data": 8,
+  "parity": "None",
+  "stop": "1",
+  "echo": true,
+  "show_lr": false,
+  "show_hex": false,
+  "hex_format": "XX",
+  "font_size": 16,
+  "show_lines": true,
+  "show_timestamp": false,
+  "tx_bold": false,
+  "rx_bold": true,
+  "tx_color_idx": 1,
+  "rx_color_idx": 2
+}
