@@ -17,6 +17,12 @@ A lightweight, high-performance serial terminal built with **Go** and the **Fyne
     * Local Echo and Line Render (`[CR][LF]`) toggles.
 * **Auto-Configuration:** Automatically remembers your last used Port and settings via `settings.json`.
 
+## 🖥️ System Compatibility
+This application has been developed and strictly tested on:
+* **OS:** Linux Mint 22.3
+* **Desktop Environment:** KDE Plasma
+* **Architecture:** x86_64
+
 ## 🚀 Getting Started
 
 ### Prerequisites
