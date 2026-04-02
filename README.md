@@ -23,6 +23,10 @@ This application has been developed and strictly tested on:
 * **Desktop Environment:** KDE Plasma
 * **Architecture:** x86_64
 
+## 🛠️ Development Environment
+* **IDE:** Visual Studio Code
+* **Extension:** SunGo (version 1.1.2)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
