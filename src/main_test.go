@@ -28,3 +28,13 @@ func TestCreateBlinker(t *testing.T) {
 	// TODO: wywołaj createBlinker z realnymi danymi wejściowymi i sprawdź wynik
 	t.Skip("TODO: implement test for createBlinker")
 }
+
+func TestWrapBtn(t *testing.T) {
+	// TODO: wywołaj wrapBtn z realnymi danymi wejściowymi i sprawdź wynik
+	t.Skip("TODO: implement test for wrapBtn")
+}
+
+func TestFlash(t *testing.T) {
+	// TODO: wywołaj flash z realnymi danymi wejściowymi i sprawdź wynik
+	t.Skip("TODO: implement test for flash")
+}
