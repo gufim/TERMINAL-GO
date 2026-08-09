@@ -1,0 +1,44 @@
+[
+  {
+    "runId": 1,
+    "timestamp": "09.08, 19:19",
+    "durationMs": 1114,
+    "results": [
+      {
+        "name": "BenchmarkNewTappableSelect",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2199,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      },
+      {
+        "name": "BenchmarkNewCustomEntry",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2204,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      }
+    ]
+  },
+  {
+    "runId": 2,
+    "timestamp": "09.08, 19:19",
+    "durationMs": 972,
+    "results": [
+      {
+        "name": "BenchmarkNewTappableSelect",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2182,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      },
+      {
+        "name": "BenchmarkNewCustomEntry",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2166,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      }
+    ]
+  }
+]
