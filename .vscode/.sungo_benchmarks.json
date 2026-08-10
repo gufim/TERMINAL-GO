@@ -40,5 +40,75 @@
         "allocsPerOp": 0
       }
     ]
+  },
+  {
+    "runId": 3,
+    "timestamp": "09.08, 20:04",
+    "durationMs": 1624,
+    "results": [
+      {
+        "name": "BenchmarkNewTappableSelect",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2221,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      },
+      {
+        "name": "BenchmarkNewCustomEntry",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2201,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      },
+      {
+        "name": "BenchmarkSaveSettingsToFile",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2221,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      },
+      {
+        "name": "BenchmarkCreateBlinker",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2259,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      }
+    ]
+  },
+  {
+    "runId": 4,
+    "timestamp": "09.08, 20:04",
+    "durationMs": 1505,
+    "results": [
+      {
+        "name": "BenchmarkNewTappableSelect",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2301,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      },
+      {
+        "name": "BenchmarkNewCustomEntry",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2216,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      },
+      {
+        "name": "BenchmarkSaveSettingsToFile",
+        "iterations": 1000000000,
+        "nsPerOp": 0.2319,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      },
+      {
+        "name": "BenchmarkCreateBlinker",
+        "iterations": 1000000000,
+        "nsPerOp": 0.228,
+        "bytesPerOp": 0,
+        "allocsPerOp": 0
+      }
+    ]
   }
 ]
