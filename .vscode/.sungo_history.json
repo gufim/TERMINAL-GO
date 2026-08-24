@@ -178,5 +178,23 @@
     "isSmaller": false,
     "buildTime": 94404,
     "buildId": 20
+  },
+  {
+    "timestamp": "24.08, 19:59",
+    "rawSize": 33332880,
+    "formattedSize": "31.79 MB",
+    "diffText": "▲ 1141.5 KB",
+    "isSmaller": false,
+    "buildTime": 99830,
+    "buildId": 21
+  },
+  {
+    "timestamp": "24.08, 20:00",
+    "rawSize": 33332880,
+    "formattedSize": "31.79 MB",
+    "diffText": "",
+    "isSmaller": null,
+    "buildTime": 100730,
+    "buildId": 22
   }
 ]

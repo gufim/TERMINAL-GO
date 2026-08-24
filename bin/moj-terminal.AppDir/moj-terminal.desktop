@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=moj-terminal
+Exec=TERMINAL_v0.0.21
+Icon=moj-terminal
+Categories=Development;

@@ -35,7 +35,7 @@ import (
 )
 
 // --- STAŁE APLIKACJI ---
-const AppVersion = "0.0.20"
+const AppVersion = "0.0.21"
 
 // --- KOLORY GLOBALNE ---
 var (
@@ -473,26 +473,28 @@ func main() {
 	go func() {
 		time.Sleep(time.Millisecond * 200)
 		pList, _ := serial.GetPortsList()
-		if len(pList) > 0 {
-			portSelect.Options = pList
-			foundSaved := false
-			if conf.Port != "" {
-				for _, p := range pList {
-					if p == conf.Port {
-						portSelect.SetSelected(conf.Port)
-						foundSaved = true
-						break
+		fyne.Do(func() {
+			if len(pList) > 0 {
+				portSelect.Options = pList
+				foundSaved := false
+				if conf.Port != "" {
+					for _, p := range pList {
+						if p == conf.Port {
+							portSelect.SetSelected(conf.Port)
+							foundSaved = true
+							break
+						}
 					}
 				}
+				if !foundSaved {
+					portSelect.SetSelected(pList[0])
+				}
+			} else {
+				portSelect.Options = []string{}
+				portSelect.ClearSelected()
 			}
-			if !foundSaved {
-				portSelect.SetSelected(pList[0])
-			}
-		} else {
-			portSelect.Options = []string{}
-			portSelect.ClearSelected()
-		}
-		portSelect.Refresh()
+			portSelect.Refresh()
+		})
 	}()
 
 	baudSelect.SetSelected(strconv.Itoa(conf.BaudRate))
