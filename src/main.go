@@ -16,6 +16,7 @@
 package main
 
 import (
+	_"embed"
 	"encoding/json"
 	"fmt"
 	"image/color"
@@ -35,7 +36,17 @@ import (
 )
 
 // --- STAŁE APLIKACJI ---
-const AppVersion = "0.0.21"
+const AppVersion = "0.0.22"
+
+// iconPNG to bajty pliku icon.png wbudowane bezpośrednio w binarkę na etapie
+// kompilacji (dyrektywa //go:embed musi mieć plik w tej samej ścieżce
+// względnej co ten plik .go - icon.png ma leżeć obok main.go). Dzięki temu
+// ikona jest częścią samego programu i działa niezależnie od katalogu
+// roboczego, z którego program jest uruchamiany (istotne np. w AppImage,
+// gdzie ścieżki montowania bywają nietypowe).
+//
+//go:embed icon.png
+var iconPNG []byte
 
 // --- KOLORY GLOBALNE ---
 var (
@@ -185,8 +196,27 @@ func (m myTheme) Icon(n fyne.ThemeIconName) fyne.Resource { return theme.Default
 func (m myTheme) Size(n fyne.ThemeSizeName) float32       { return theme.DefaultTheme().Size(n) }
 
 func main() {
+	//myApp := app.New()
+
+
+
+
 	myApp := app.NewWithID("com.serial.terminal")
+
+
+
 	myApp.Settings().SetTheme(&myTheme{})
+
+		// Ikona aplikacji - ta sama grafika trafia zarówno na pasek zadań/
+	// przełącznik okien (SetIcon na oknie), jak i tam, gdzie system pyta
+	// o ikonę samej aplikacji jako takiej, niezależnie od okna (SetIcon na
+	// app.App - używane np. przez powiadomienia systemowe, jeśli Fyne
+	// kiedyś z nich skorzysta).
+	appIcon := fyne.NewStaticResource("icon.png", iconPNG)
+	myApp.SetIcon(appIcon)
+
+
+
 	win := myApp.NewWindow("SERIAL TERMINAL")
 	win.Resize(fyne.NewSize(1050, 650))
 
