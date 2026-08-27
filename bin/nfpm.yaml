@@ -1,5 +1,5 @@
 name: "moj-terminal"
-version: "0.0.21"
+version: "0.0.22"
 arch: "amd64"
 platform: "linux"
 maintainer: "unknown"
@@ -7,7 +7,7 @@ description: "moj-terminal — built with SunGo Project Manager"
 homepage: ""
 license: "MIT"
 contents:
-  - src: "/home/mirek/WORKSPACE_GO/TERMINAL/bin/TERMINAL_v0.0.21"
-    dst: "/usr/bin/TERMINAL_v0.0.21"
+  - src: "/home/mirek/WORKSPACE_GO/TERMINAL/bin/TERMINAL_v0.0.22"
+    dst: "/usr/bin/TERMINAL_v0.0.22"
     file_info:
       mode: 0755

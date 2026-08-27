@@ -16,7 +16,7 @@
 package main
 
 import (
-	_"embed"
+	_ "embed"
 	"encoding/json"
 	"fmt"
 	"image/color"
@@ -198,24 +198,17 @@ func (m myTheme) Size(n fyne.ThemeSizeName) float32       { return theme.Default
 func main() {
 	//myApp := app.New()
 
-
-
-
 	myApp := app.NewWithID("com.serial.terminal")
-
-
 
 	myApp.Settings().SetTheme(&myTheme{})
 
-		// Ikona aplikacji - ta sama grafika trafia zarówno na pasek zadań/
+	// Ikona aplikacji - ta sama grafika trafia zarówno na pasek zadań/
 	// przełącznik okien (SetIcon na oknie), jak i tam, gdzie system pyta
 	// o ikonę samej aplikacji jako takiej, niezależnie od okna (SetIcon na
 	// app.App - używane np. przez powiadomienia systemowe, jeśli Fyne
 	// kiedyś z nich skorzysta).
 	appIcon := fyne.NewStaticResource("icon.png", iconPNG)
 	myApp.SetIcon(appIcon)
-
-
 
 	win := myApp.NewWindow("SERIAL TERMINAL")
 	win.Resize(fyne.NewSize(1050, 650))

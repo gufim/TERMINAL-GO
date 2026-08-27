@@ -196,5 +196,14 @@
     "isSmaller": null,
     "buildTime": 100730,
     "buildId": 22
+  },
+  {
+    "timestamp": "27.08, 21:08",
+    "rawSize": 33342640,
+    "formattedSize": "31.80 MB",
+    "diffText": "▲ 9.5 KB",
+    "isSmaller": false,
+    "buildTime": 96568,
+    "buildId": 23
   }
 ]
