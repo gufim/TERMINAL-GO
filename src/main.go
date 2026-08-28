@@ -36,7 +36,7 @@ import (
 )
 
 // --- STAŁE APLIKACJI ---
-const AppVersion = "0.0.22"
+const AppVersion = "0.0.23"
 
 // iconPNG to bajty pliku icon.png wbudowane bezpośrednio w binarkę na etapie
 // kompilacji (dyrektywa //go:embed musi mieć plik w tej samej ścieżce

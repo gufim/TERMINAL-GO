@@ -1,2 +1,2 @@
 #!/bin/sh
-exec "$(dirname "$0")/usr/bin/TERMINAL_v0.0.22" "$@"
+exec "$(dirname "$0")/usr/bin/TERMINAL_v0.0.23" "$@"
